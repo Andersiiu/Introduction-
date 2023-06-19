@@ -1,0 +1,26 @@
+using System;
+
+namespace Teste;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Ação();
+    }
+
+    static void Ação()
+
+    {
+        int numero = 3;
+
+        switch (numero)
+        {
+
+            case 1: Console.WriteLine("número correto"); break;
+            case 2: Console.WriteLine("número incorreto"); break;
+
+            default: Console.WriteLine("indefinido"); break;
+        }
+    }
+}
