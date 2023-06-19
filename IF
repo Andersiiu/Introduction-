@@ -1,0 +1,27 @@
+using System;
+
+namespace Teste;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        EscreveTela();
+    }
+
+    static void EscreveTela()
+
+    {
+        int numero = 5;
+
+        if (numero == 1)
+        {
+            Console.WriteLine("Azevedo tonto");
+        }
+        else
+        {
+            Console.WriteLine("Azevedo zé");
+        }
+
+    }
+}
