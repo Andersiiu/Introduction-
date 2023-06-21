@@ -1,0 +1,23 @@
+using System;
+
+namespace Teste;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Acao();
+    }
+
+    static void Acao()
+
+    {
+        int contador = 0;
+
+        while (contador <= 3)
+        {
+            Console.WriteLine(contador);
+            contador++;
+        }
+    }
+}
