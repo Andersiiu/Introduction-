@@ -1,0 +1,29 @@
+using System;
+
+namespace Teste;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Acao();
+    }
+
+    static void Acao()
+
+    {
+
+        bool trueOrFalse = bool.Parse("True");
+
+
+        if (trueOrFalse == false)
+        {
+            Console.WriteLine("é verdadeiro");
+        }
+        else
+        {
+            Console.WriteLine("é falso");
+        }
+    }
+}
+
