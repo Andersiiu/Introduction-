@@ -1,0 +1,31 @@
+using System;
+
+namespace ExemploStruct
+{
+    // Definição da estrutura
+    struct Pessoa
+    {
+        public string Nome;
+        public int Idade;
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Criando uma instância da estrutura
+            Pessoa pessoa1;
+            pessoa1.Nome = "João";
+            pessoa1.Idade = 30;
+
+            // Criando outra instância da estrutura
+            Pessoa pessoa2 = new Pessoa();
+            pessoa2.Nome = "Maria";
+            pessoa2.Idade = 25;
+
+            // Exibindo informações das pessoas
+            Console.WriteLine("Pessoa 1 - Nome: " + pessoa1.Nome + ", Idade: " + pessoa1.Idade);
+            Console.WriteLine("Pessoa 2 - Nome: " + pessoa2.Nome + ", Idade: " + pessoa2.Idade);
+        }
+    }
+}
