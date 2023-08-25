@@ -1,0 +1,28 @@
+using System;
+
+namespace ExemploFuncaoSomaCSharp
+{
+    class Program
+    {
+        // Definindo a função que calcula a soma de dois números inteiros
+        static int Somar(int a, int b)
+        {
+            int soma = a + b;
+            return soma;
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite o primeiro número inteiro:");
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o segundo número inteiro:");
+            int num2 = int.Parse(Console.ReadLine());
+
+            // Chamando a função para calcular a soma
+            int resultado = Somar(num1, num2);
+
+            Console.WriteLine($"A soma de {num1} e {num2} é {resultado}");
+        }
+    }
+}
