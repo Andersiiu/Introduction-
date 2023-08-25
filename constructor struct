@@ -1,0 +1,32 @@
+using System;
+
+namespace ExemploStruct
+{
+    // Definição da estrutura com construtor
+    struct Pessoa
+    {
+        public string Nome;
+        public int Idade;
+
+        // Construtor personalizado
+        public Pessoa(string nome, int idade)
+        {
+            Nome = nome;
+            Idade = idade;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Criando instâncias da estrutura usando o construtor
+            Pessoa pessoa1 = new Pessoa("João", 30);
+            Pessoa pessoa2 = new Pessoa("Maria", 25);
+
+            // Exibindo informações das pessoas
+            Console.WriteLine("Pessoa 1 - Nome: " + pessoa1.Nome + ", Idade: " + pessoa1.Idade);
+            Console.WriteLine("Pessoa 2 - Nome: " + pessoa2.Nome + ", Idade: " + pessoa2.Idade);
+        }
+    }
+}
